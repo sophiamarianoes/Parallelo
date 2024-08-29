@@ -1,0 +1,31 @@
+nav ul{
+    display: flex;
+    flex-direction: row; /*row: definir o menu em linha horizontal*/
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{ /*li: seleciona todos os itens dentro de uma lista (ul) que está dentro do nav*/
+    list-style: none;
+    height: 125px;
+    padding: 0 25px 00;
+}
+nav ul li:hover{ /*hover: para quando o mouse ficar em cima mudar de cor*/
+    background: #44444444;
+}
+
+nav{
+    height: 125px; /*define a altura*/
+    max-width: 1480px; /*máximo de largura*/
+    min-width: 1080; /*mínimo de largura*/
+    background-color: black;
+}
+nav #logo img{ /*seleciona a imagem dentro do campo com id "logo"*/
+    height: 75px;
+    margin: 25px;
+    float: left;
+
+}
+nav #mainMenu{
+    float: right;
+}
